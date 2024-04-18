@@ -9,7 +9,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 public class WebCrawler implements Runnable{
-	//https://www.youtube.com/watch?v=KZK5rnxBWcU
+	
 		private static final int MAX_DEPTH=3;
 		private Thread thread;
 		private String first_link;
